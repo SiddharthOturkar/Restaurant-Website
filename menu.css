@@ -1,0 +1,119 @@
+body{
+
+	margin-top: 0%;
+	margin: 0%;
+	margin-bottom: 0%;
+	margin-right: 0%;
+	
+	background-repeat: no-repeat;
+  	background-size: 100% auto;
+  	font-family: "Lucida Console", "Courier New", monospace;
+  	background-color: Black;
+}
+.m1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #29a329;
+
+}
+li {
+  float:right;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.logo
+{
+	height: 120px;
+	width: auto;
+	margin-left: 21px;
+	margin-top: -36px;
+}
+.frame
+{
+	margin-top: 5%;
+}
+.card {
+  box-shadow: 0 4px 8px 4px violet;
+  max-width: 300px;
+  height: 370px;
+  left: 10%;
+  width: 300px;
+
+  margin-left: 3%;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  flex-wrap: wrap;
+  position: relative;
+
+}
+
+.price {
+  color: white;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button
+{
+
+	background-color: white;
+	color: green;
+	font-weight: bold;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+.details
+{
+	color: white;
+
+}
+.all
+{
+ display:flex;
+  justify-content:center;
+  margin-top: -50%;
+ 
+ }
+ .exp
+{
+	color: white;
+	background-color: green;
+	width: 300px;
+  height: 50px;
+  
+  margin-left: auto;
+  margin-top: 0.15%	;
+		
+}
+.exp1
+{
+	font-size: 19px;
+	font-weight: normal;
+	font-family: "Audiowide", sans-serif;
+}
